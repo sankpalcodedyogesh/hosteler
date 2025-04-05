@@ -1,0 +1,112 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.leave-request-list, .leave-request-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+/* General container and center alignment */
+.login-container {
+  width: 50%;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Layout for login options (Student vs Warden) */
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;  /* Adds some space between the two sections */
+}
+
+/* Styling for login box */
+.login-box {
+  width: 48%;  /* Each box takes up 48% of the container width */
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.login-box.active {
+  background-color: #f0f8ff;
+  border-color: #007bff;
+}
+
+.login-box:hover {
+  background-color: #e6f2ff;
+  border-color: #0066cc;
+}
+
+.login-box h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.login-box p {
+  font-size: 14px;
+}
+
+/* Styling for input fields */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Styling for login button */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
